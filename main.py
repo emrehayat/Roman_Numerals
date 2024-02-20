@@ -22,7 +22,7 @@ def roman_to_integer(rom):
     return integer_value
     
 while True:
-    rom = input("Roma rakamlariyla bir sayi giriniz (veya q tuşuna basarak çikiniz): ")
+    rom = input("Romen rakamlariyla bir sayi giriniz (veya q tuşuna basarak çikiniz): ")
     if rom.lower() == "q":
         break
 
